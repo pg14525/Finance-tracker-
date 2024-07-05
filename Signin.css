@@ -1,0 +1,271 @@
+.bg-facets {
+    /* background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg); */
+    background-position: center 0px;
+    background-size: 1000px;
+    background-repeat: repeat-x;
+}
+html{
+    box-sizing: border-box;
+}
+
+
+.pt-8 {
+    padding-top: 2rem;
+}
+
+
+@media (min-width: 768px){
+.px-8 {
+    padding-left: 2rem; 
+     padding-right: 2rem;
+}
+.pt-8 {
+    padding-top: 2rem;
+}
+.mx-auto, body.terms main, #admin-header-menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media (min-width: 768px){
+.container, body.terms main {
+    max-width: 768px;
+}}
+@media (min-width: 640px){
+.container, body.terms main {
+    max-width: 640px;
+}
+
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+.container{
+    /* background-color: floralwhite; */
+    align-items: center;
+    justify-items: center;
+    display: block;
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.items-center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.container {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.12);
+    border-radius: 16px;
+}
+.py-8, body.login div.modal_box {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.mb-8, body.login div.modal_box {
+    margin-bottom: 2rem;
+}
+input ,.inlog{
+    border-color: #373B3F;
+    border: 0.02px solid; 
+}
+.bg-white, body.login div.modal_box {
+    background-color: #fff;
+}
+.px-4, body.terms main table td, .inlog,body.terms main table th, body.admin .admin-cta-button, input, #admin-header-menu a, #admin-header-menu {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+*, :after, :before {
+    border: 0 solid;
+}
+
+
+
+.mb-4, body.terms main p, body.terms main ul, body.terms main ol, body.terms main table, body.terms main h3 {
+    margin-bottom: 1rem;
+}
+button, .inlog,input {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+button, .inlog,input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+}
+input, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.admin textarea:not(.inline), body.admin input[type="text"]:not(.inline), body.admin select:not(.inline) {
+    width: 100%;
+}
+.text,input{
+    font-size: 1.5rem;
+}
+
+.font-mont, .inlog,body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.login div.modal_box, body.admin label, body.admin .admin-cta-button, body.admin input[type="submit"] {
+    font-family: Montserrat;
+}
+
+
+.text-base, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.admin textarea, body.admin input[type="text"], body.admin select {
+    font-size: 1.5rem;
+}
+.px-2, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.admin pre, body.admin textarea, body.admin input[type="text"], body.admin select, body.admin table th, body.admin table td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.py-2, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.terms main table td, body.terms main table th, body.admin textarea:not(.inline), body.admin input[type="text"]:not(.inline), body.admin select:not(.inline), body.admin .admin-cta-button, .inlog,body.admin input[type="submit"], #admin-header-menu a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.border, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.admin textarea, body.admin input[type="text"], body.admin select {
+    border-width: 1px;
+}
+.border-grey-lightest, body.login div.modal_box input[type="text"], body.login div.modal_box input[type="email"], body.login div.modal_box input[type="password"], body.login div.modal_box, body.admin textarea, body.admin input[type="text"], body.admin select {
+    border-color: #E6E8EE;
+}
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    /* border-width: 1px; */
+}
+.text-center {
+    text-align: center;
+}
+.shadow, body.admin .admin-cta-button,.inlog, body.admin input[type="submit"] {
+    box-shadow: 0 2px 0 0 rgba(55,59,63,0.5);
+}
+.block, body.admin label {
+    display: block;
+}
+
+.rounded, body.admin pre, body.admin .admin-cta-button, .inlog,body.admin input[type="submit"] {
+    border-radius: 5px;
+}
+.cta-button, .sm-cta-button {
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.text-white, body.admin .admin-cta-button,.inlog, body.admin input[type="submit"], #admin-header-menu {
+    color: #fff;
+}
+.bg-teal-darker, #admin-header-menu {
+    background-color: #18A582;
+    width:90% ;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+ hr {
+    background: #E6E8EE;
+    height: 1px;
+    border: none;
+    width: 40px;
+    vertical-align: middle;
+}
+.inline-block, body.admin , .inlog,body.admin input[type="submit"] {
+    display: inline-block;
+    font-size:x-large;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.mt-6 {
+    margin-top: 1.5rem;
+}
+.font-semibold, body.admin label,.inlog, body.admin .admin-cta-button, body.admin input[type="submit"] {
+    font-weight: 600;
+}
+.text-grey-lightest {
+    color: #BDC9D4;
+}
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+.pt-4 {
+    padding-top: 1rem;
+}
+.sign button{
+   width: 180px;
+   height: 95px;
+   background-color: #18A582;
+   opacity: 0.9;
+   border-radius: 35%;
+   /* z-index: -1; */
+}
+
+#F img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+#F span{ 
+    font-size:18px;
+    vertical-align: middle;
+    justify-content: center;
+    color: white;
+}
+#F button{ 
+    font-size:20px;
+    vertical-align: middle;
+    justify-content: center;
+    color: white
+    ;
+}
+
+
+.sign{
+    display: block;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    /* padding-top: 1rem;padding-bottom: 1.5rem; */
+}
+
+.log{
+    margin-left: 45%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family:"Montserrat";
+    font-weight:800;
+}
+
